@@ -30,11 +30,11 @@ export default function Indexpage() {
   return (
     <div className="min-h-full bg-blue-100 flex flex-col items-center">
       <div className="w-1/2  flex flex-col items-end ">
-        <div className="bg-white p-2 text-black mt-5 rounded-lg shadow w-full">
+        <div className="bg-gray-300 p-2 text-black mt-5 rounded-lg shadow w-full">
           <textarea
             placeholder="name....."
             rows={1}
-            className=" outline-none w-full resize-none mt-5"
+            className=" bg-gray-300 outline-none w-full resize-none mt-5"
             onChange={(e) => setName(e.target.value)}
             required
           ></textarea>
